@@ -31,9 +31,9 @@
     
     nav {
         background:url(../images/geeks-2894621_1920.jpg) repeat;
-        font-size:18px;
+        font-size:20px;
         text-align: center;
-        
+        color:greenyellow   
     }
     
     nav ul li{
@@ -46,7 +46,7 @@
     padding:6px;
     border-right: 2px solid goldenrod;
     text-decoration: none;
-    color:greenyellow
+    color:greenyellow;
     }
     
     nav ul li:last-child a{
@@ -57,7 +57,7 @@
     font-size: 20px;
     line-height: 22px;
     margin-bottom:20px;
-    color:goldenrod
+    color:whitesmoke;
     }
    
     form label{
@@ -84,10 +84,17 @@
     font-size: 18px;
     border:none;
     }
-    .page-footer{
+    footer{
         position: fixed;
-        
-     }
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: goldenrod;
+        color: white;
+        text-align: center;
+      }
+    
+     
     
     
     .wrapper{width:960px;
